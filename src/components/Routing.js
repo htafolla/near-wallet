@@ -53,7 +53,8 @@ import { LoginWithRouter } from './login/Login';
 import { LoginCliLoginSuccess } from './login/LoginCliLoginSuccess';
 import Navigation from './navigation/Navigation';
 import { Profile } from './profile/Profile';
-import { ReceiveMoneyWithRouter } from './receive-money/ReceiveMoney';
+// import { ReceiveMoneyWithRouter } from './receive-money/ReceiveMoney';
+import { ReceiveContainerWithRouter } from './receive-money/ReceiveContainer';
 import { SendContainer } from './send/SendContainer';
 import { SignWithRouter } from './sign/Sign';
 import { StakingContainer } from './staking/StakingContainer';
@@ -360,7 +361,7 @@ class Routing extends Component {
                             <PrivateRouteLimited
                                 exact
                                 path='/receive-money'
-                                component={ReceiveMoneyWithRouter}
+                                component={ReceiveContainerWithRouter}
                             />
                             <PrivateRouteLimited
                                 exact
